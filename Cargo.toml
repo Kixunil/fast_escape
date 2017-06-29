@@ -1,0 +1,11 @@
+[package]
+name = "fast_escape"
+version = "0.1.0"
+authors = ["Martin Habovštiak <martin.habovstiak@gmail.com>"]
+
+[features]
+default = ["std"]
+std = ["fast_fmt/with_std"]
+
+[dependencies]
+fast_fmt = { git = "https://github.com/Kixunil/fast_fmt", default-features = false }
