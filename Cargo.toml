@@ -9,3 +9,6 @@ std = ["fast_fmt/with_std"]
 
 [dependencies]
 fast_fmt = { git = "https://github.com/Kixunil/fast_fmt", default-features = false }
+
+[dev-dependencies]
+void = "1"
